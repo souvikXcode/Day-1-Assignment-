@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+	float f,f1;
+	printf("enter f:");
+	scanf("%f",&f);
+	printf("enter f1:");
+	scanf("%f", &f1);
+	float substract = f-f1;
+	printf("substract is: %.2f", substract);
+	return 0;
+}
